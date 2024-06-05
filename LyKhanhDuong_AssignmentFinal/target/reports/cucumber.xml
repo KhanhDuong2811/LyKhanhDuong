@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="19.2" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Shopiness Testing" name="Verify Home Screen" time="18.952">
+<failure type="org.openqa.selenium.SessionNotCreatedException" message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up 
+Host info: host: 'DESKTOP-NUBKQCS', ip: '192.168.1.54'
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=.ui.activities.intro.SplashActivity, appium:appPackage=com.nct.shopiness, appium:deviceName=emulator-5554, platformName=ANDROID, appium:platformVersion=9.0}], desiredCapabilities=Capabilities {appActivity: .ui.activities.intro.Splash..., appPackage: com.nct.shopiness, deviceName: emulator-5554, platformName: ANDROID, platformVersion: 9.0}}]
+Capabilities {appActivity: .ui.activities.intro.Splash..., appPackage: com.nct.shopiness, deviceName: emulator-5554, platformName: ANDROID, platformVersion: 9.0}">
+<![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up 
+Host info: host: 'DESKTOP-NUBKQCS', ip: '192.168.1.54'
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=.ui.activities.intro.SplashActivity, appium:appPackage=com.nct.shopiness, appium:deviceName=emulator-5554, platformName=ANDROID, appium:platformVersion=9.0}], desiredCapabilities=Capabilities {appActivity: .ui.activities.intro.Splash..., appPackage: com.nct.shopiness, deviceName: emulator-5554, platformName: ANDROID, platformVersion: 9.0}}]
+Capabilities {appActivity: .ui.activities.intro.Splash..., appPackage: com.nct.shopiness, deviceName: emulator-5554, platformName: ANDROID, platformVersion: 9.0}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+	at Core.AppiumBase.setup(AppiumBase.java:31)
+	at StepDefinition.shopinessSteps.open_shoppe_app(shopinessSteps.java:17)
+	at ✽.open shoppe app(file:///D:/1%20Duong/Automation%20Test/Java%20for%20mobile/LyKhanhDuong_AssignmentFinal/src/main/java/Resource/Shopiness.feature:4)
+]]>
+</failure>
+<system-out><![CDATA[
+Given open shoppe app.......................................................failed
+Given Click to Bat dau trai nghiem..........................................skipped
+When I click to Deny........................................................skipped
+Then The Home screen should displayed.......................................skipped
+And The menu footer should displayed........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
